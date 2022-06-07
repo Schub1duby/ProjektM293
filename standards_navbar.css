@@ -107,4 +107,9 @@ footer
     {
         margin: 10px;
     }
+
+    li 
+    {
+        display: block;
+    }
 }
