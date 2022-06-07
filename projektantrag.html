@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./navbar.css">
+    <link rel="stylesheet" href="./Aufgaben_einfachText.css">
+    <link rel="stylesheet" href="./standards_navbar.css">
+    <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">EPortfolio</div>
+        <label for="btn" class="icon">
+            <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+
+        <ul>
+            
+            <li><a href="./index.html">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">Organisation +</label>
+                <a href="#">Organisation</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="./aufgabenImLehrbetrieb.html">Aufgaben im Lehrbetrieb</a></li>
+                    <li><a href="./aufbau_vs_ablauf_org.html">Aufbau vs. Ablaufsorganisation</a></li>
+                    <li><a href="./projektantrag.html">Projektantrag</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-2" class="show">Projekt +</label>
+                <a href="#">Projekt</a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="./Phasenablauf_ITProjekt.html">Phasenablauf IT Projekt</a></li>
+                    <li><a href="./gantt_Diagramn.html">Gantt Diagramm</a></li>
+                    <li><a href="./Projektrollen.html">Projektrollen</a></li>
+                </ul>
+                
+            </li>
+
+            <li>
+                <label for="btn-3" class="show">IPERKA</label>
+                <a href="#">IPERKA</a>
+                <input type="checkbox" id="btn-3">
+
+                <ul>
+                    <li><a href="./IperkaImDetail.html">IPERKA im Detail</a></li>
+                    <li><a href="./PraxisbeispielIperka.html">Praxisbeispiel</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <label for="btn-4" class="show">Informationsbeschaffung</label>
+                <a href="#">Informationsbeschaffung</a>
+                <input type="checkbox" id="btn-4">
+                <ul>
+                    <li><a href="./notizenMachen.html">Notizen machen</a></li>
+                    <li><a href="./InformationenStrukturieren.html">Informationen Strukturieren</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <label for="btn-5" class="show">Planung</label>
+                <a href="#">Planung</a>
+                <input type="checkbox" id="btn-5">
+
+                <ul>
+                    <li><a href="./eigenePlanung.html">Eigene Planung</a></li>
+                    <li><a href="./Reflexion_Arbeitsplanung.html">Reflexion Arbeitsplanung</a></li>
+                </ul>
+            </li>
+
+            <li>
+                <label for="btn-6" class="show">Vortrag</label>
+                <a href="#">Vortrag</a>
+                <input type="checkbox" id="btn-6">
+
+                <ul>
+                    <li><a href="./checkliste_Präsentation.html">Checkliste Präsentation</a></li>
+                    <li><a href="./reflexion_Praesi.html">Reflexion Vorträge</a></li>
+                </ul>
+            </li>
+
+            <li><a href="./impressum.html">Impressum</a></li>
+
+            <li><a href="./quellenverzeichnis.html">Quellenverzeichnis</a></li>
+
+            
+        </ul>
+
+        
+    </nav>
+
+    <article>
+        <h1>Arbeitsauftrag: Projektantrag</h1>
+        <div class="Teilaufgabe1">
+            <h3>Aufgabe 1:</h3>
+            <b>Aktuell ist es bei uns im ZbW so:</b>
+            <br>
+            <p>Wir haben ein Badge System, wo wir mittels Badge unsere Zeit erfassen können.
+                Das ist so ein kleines Gerät (Raspberry Pi), welches mithilfe von einem RFID Leser die Karte liest und dann die Zeit schreibt. 
+                Das Problem ist, dass dieses Gerät öfters überfordert ist und deshalb sich immer wieder aufhängt, abstürzt oder so ähnlich. 
+                Dies ist natürlich nicht so toll, da dieses Gerät funktionieren soll. Somit soll dieses Gerät verbessert werden. 
+            </p>
+
+        </div>
+        <hr>
+        <div class="Teilaufgabe2">
+            <h3>Aufgabe 2:</h3>
+            <table>
+                <tbody>
+                    <tr>
+                        <td><b>Projektbezichnung</b></td>
+                        <td><b>RFID Bugfixin</b></td>
+                    </tr>
+                    
+                    <tr>
+                        <td><b>Projektbeschrieb</b></td>
+                        <td>
+                            <b>Ausgangssituation</b>
+                            <br>
+                            <p>Aktuell haben wir ein RFID Sensor, mit welchem man mithilfe von einer NFC Karte ins Timesafe einstempeln kann. 
+                                Die Performance von diesem Gerät ist aber nicht die beste. Es stürzt öfters ab oder Einträge werden nicht richtig eingetragen. 
+                                So ein Problem, gibt es jedes 15. Mal, wo ich einstempeln will.</p>
+                            <br>
+                            <b>Grund des Vorgehens</b>
+                            <p>So ein System soll zuverlässig sein und viele im ZbW nervt das, dass der RFID Leser nicht richtig funktioniert. 
+                                Deshalb soll dieses Gerät verbessert werden, damit die Performance höher ist
+                            </p>
+                            <br>
+                            <b>Nutzen des Projekts</b>
+                            <p>Wenn der RFID Leser richtig funktionieren würde, wäre es für die Betreuer viel ein-facher die Zeit im BLJ zu erfassen. 
+                                Durchdass Bugfixin des Sensors, würde es weniger falsche Daten geben. Somit müssen die Mitarbeiter nicht ständig die 
+                                Zeit kontrollieren und die Betreuer können richtige Zeiten einsehen. 
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Projektziele</b></td>
+                        <td>
+                            <ul>
+                                <li>Die Falschdaten Quote soll gesenkt werden</li>
+                                <li>Das Gerät soll sicher weniger aufhängen oder abstürzen und falls doch, soll eine Massnahme dagegen getroffen werden</li>
+                                <li>Der Code soll aufgeräumter und übersichtlicher daherkommen, ausser-dem soll im Code mehr dokumentiert werden. </li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Kosten</b></td>
+                        <td>250h x 15CHF/h = 3750 Franken</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Mitarbeiter</b></td>
+                        <td><b>Name:</b> Cyrill Schudel
+                            <br>
+                            <b>Funktion:</b> Projektleiter/Mitarbeiter
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Zuständigkeiten</b></td>
+                        <td>Für die Planung und den reibunsglosen Ablauf des Projektes ist der Projektleiter verantwortlich. Er kommuniziert mit dem Auftraggeber und teilt die Arbeitspakete zu. Die Inhalte und Aufgaben werden mit den Auftraggebern abgesprochen. </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Projektdauer</b></td>
+                        <td>April - Juni 2022</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Projektberichte</b></td>
+                        <td>Das Projekt und der Verlauf wird in der Projektdokumentation beschrieben. Das Produkt wird in einer entsprechenden Dokumentation (Betriebshandbuch, Bedienungsanleitung, Produktdokumentation) dokumentiert. </td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Besondere Vereinbarungen</b> </td>
+                        <td>ich arbeiten fehlerfrei, zügig und engagiert. </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </article>
+
+</body>
+</html>

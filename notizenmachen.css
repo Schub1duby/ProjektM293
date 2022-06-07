@@ -1,0 +1,15 @@
+.notizen_flex
+
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+@media (orientation: portrait) {
+    .Teilaufgabe1
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}

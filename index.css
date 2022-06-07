@@ -1,0 +1,23 @@
+article
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (max-width: 970px)
+{
+    .bild_projektmanagment
+    {
+        width: 500px;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .bild_projektmanagment
+    {
+        width: 350px;
+    }
+}
