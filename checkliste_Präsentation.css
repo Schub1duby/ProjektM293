@@ -24,30 +24,6 @@ p a
     color: black;   
 }
 
-table
-{
-    border-collapse: collapse;
-    width: 100%;
-    border: solid white 1px;
-    margin-bottom: 50px;
-    float: left;;
-}
-
-th
-{
-    background-color: rgb(28, 28, 153);
-}
-
-tr:hover 
-{
-    background-color: rgb(88, 72, 72);
-}
-
-td, th
-{
-    border: solid white 1px;
-    padding: 8px;
-}
 
 h5
 {
