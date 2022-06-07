@@ -5,11 +5,16 @@
     justify-content: flex-start;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 500px) {
     .Teilaufgabe1
     {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+    }
+
+    .img_cornell
+    {
+        width: 250px;
     }
 }

@@ -4,3 +4,12 @@
     flex-wrap: wrap;
     justify-content: flex-start;
 }
+
+@media (max-width: 500px) {
+
+
+    .img_exzerpt
+    {
+        width: 250px;
+    }
+}
